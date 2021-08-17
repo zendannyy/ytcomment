@@ -21,8 +21,8 @@ def analyt(analytics):
     )
     response = request.execute()
     print(response)
-    response = requests.get('https://jsonplaceholder.typicode.com/todos/1')
-    print(response)
+    # response = requests.get('https://jsonplaceholder.typicode.com/todos/1')
+    # print(response)
 
 def get_comments(comments):
     """fetch comments for spefic video using videoId param"""
@@ -36,18 +36,17 @@ def get_comments(comments):
     # .execute()
     response = request.execute()
 
-    for i in response['items']:
-        # print(i.values())
-        snippet = i['kind']
-        text = snippet[0]
-        print(text)
+    # for i in response['items']:
+    #     # print(i.values())
+    #     snippet = i['kind']
+    #     text = snippet[0]
+    #     print(text)
         # comment = i['snippet']['textDisplay']
         # print("Top comments & replies: ", comment)
         
     
     # return request["items"]
-
-    # print(response)
+    print(response)
 
 
 def main():
