@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+
+
+h2{
+    text-align: center;
+}
+
+.login{
+    text-align:center;
+}
+
+.headers{
+    text-align:center;
+}
+
+
+.welcome{
+    background-image: url('yt_logo.png');
+    background-size:10em;
+    margin-bottom: 75px;
+}
+
+
+.welcome h4{
+    margin-bottom: inherit;
+ 
+ }
+
+ .labels{
+     margin-top: 162px;
+ }
+
+  /* .labels{
+    background-image: url('yt_logo.png');
+    background-size:11em;
+ } */
+
+ .inputs{
+     margin-top: 130px;
+ }
+
+
+.search_bar{
+    margin-top: 75px;
+}
